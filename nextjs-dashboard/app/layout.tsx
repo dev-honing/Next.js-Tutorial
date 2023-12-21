@@ -1,4 +1,5 @@
 // app/ui/layout.tsx
+
 import '@/app/ui/global.css';
 
 export default function RootLayout({
