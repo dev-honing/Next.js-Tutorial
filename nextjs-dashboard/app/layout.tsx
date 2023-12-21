@@ -1,4 +1,4 @@
-// app/ui/layout.tsx
+// app/layout.tsx
 
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
