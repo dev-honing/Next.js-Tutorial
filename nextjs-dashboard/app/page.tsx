@@ -30,7 +30,7 @@ export default function Page() {
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
           {/* InvoiceStatus 컴포넌트 추가 및 상태 전달 */}
-          <InvoiceStatus status="pending" />
+          <InvoiceStatus status="paid" />
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
