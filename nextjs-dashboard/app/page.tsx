@@ -5,7 +5,7 @@ import { ArrowRightIcon, ClockIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import InvoiceStatus from '@/app/ui/invoices/status';
-import { lusitana } from '@/app/ui/font'; // lusitana 폰트 추가
+import { lusitana } from '@/app/ui/fonts'; // lusitana 폰트 추가
 
 
 export default function Page() {

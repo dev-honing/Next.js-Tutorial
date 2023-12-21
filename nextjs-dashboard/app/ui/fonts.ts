@@ -1,4 +1,4 @@
-// app/ui/font.ts
+// app/ui/fonts.ts
 
 import { Inter, Lusitana } from 'next/font/google';
 
