@@ -5,7 +5,8 @@ import { ArrowRightIcon, ClockIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import InvoiceStatus from '@/app/ui/invoices/status';
-import { lusitana } from '@/app/ui/fonts'; // lusitana 폰트 추가
+import { lusitana } from '@/app/ui/fonts';
+import Image from 'next/image'; // 이미지 추가
 
 
 export default function Page() {
@@ -35,7 +36,14 @@ export default function Page() {
           <InvoiceStatus status="paid" />
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          {/* Add Hero Images Here */}
+          {/* Add Hero Images Here */}  
+        <Image
+          src="/hero-desktop.png"
+          width={1000}
+          height={760}
+          className="hidden md:block"
+          alt="Screenshots of the dashboard project showing desktop version"
+        />
         </div>
       </div>
     </main>
